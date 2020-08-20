@@ -1,0 +1,20 @@
+{
+	"name": "website_folio",
+	"version": "1.0.0",
+	"description": "Simple static website for a folio of projects.",
+	"main": "index.js",
+	"scripts": {
+		"clean": "npx rimraf build",
+		"build": "npm run clean && npx pug src/*.pug -o build && cp -r static build/assets"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com//advmtue/website_folio.git"
+	},
+	"author": "Adam Tuechler",
+	"license": "MIT",
+	"dependencies": {
+		"pug-cli": "^1.0.0-alpha6",
+		"rimraf": "^3.0.2"
+	}
+}

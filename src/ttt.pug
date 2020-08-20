@@ -1,0 +1,38 @@
+doctype html
+html
+	head
+		include includes/meta
+		title Nerf TTT -- adamtuechler
+	body
+		- var title = "Nerf TTT"
+		include includes/navbar
+
+		.image
+			img(src="assets/img/ttt.png")
+
+		.container
+			h3.title Technology Stack
+			ul
+				li
+					p
+						b Frontend - 
+						| Angular
+				li
+					p
+						b Backend - 
+						| Java (Spring) + STOMP
+				li
+					p
+						b Database - 
+						| Amazon DynamoDB (NoSQL)
+
+		.container
+			h3.title Summary
+			ul
+				li
+					p TTT is an espionage-centric game which simarly resembles the
+					| characteristics of Cluedo.
+				li
+					p The Nerf TTT web application comprises a lobby system and game
+					| coordinator to organise a real-world variant of the game, played
+					| with Nerf guns.

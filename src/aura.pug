@@ -1,0 +1,37 @@
+doctype html
+html
+	head
+		include includes/meta
+		title Project AURA -- adamtuechler
+	body
+		- var title = "Project AURA"
+		include includes/navbar
+
+		.image
+			img(src="assets/img/aura.png")
+
+		.container
+			h3.title Technology Stack
+			ul
+				li
+					p
+						b Frontend - 
+						| Angular
+				li
+					p
+						b Backend - 
+						| NodeJS (Express)
+				li
+					p
+						b Database - 
+						| MariaDB (SQL)
+
+		.container
+			h3.title Summary
+			ul
+				li
+					p Project AURA is a Deakin University capstone project. It aims to
+					| serve researches with a means of transparently publishing research
+					| results for studies related to animal testing.
+				li
+					p AURA - Animal Use Research Assets

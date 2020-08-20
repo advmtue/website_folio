@@ -1,0 +1,39 @@
+doctype html
+html
+	head
+		include includes/meta
+		title Unnamed Trivia -- adamtuechler
+	body
+		- var title = "Unname Trivia"
+		include includes/navbar
+
+		.image
+			img(src="assets/img/trivia.png")
+
+		.container
+			h3.title Technology Stack
+			ul
+				li
+					p
+						b Frontend - 
+						| Angular
+				li
+					p
+						b Backend - 
+						| Undecided; C# or Java
+				li
+					p
+						b Database - 
+						| Undecided; DynamoDB
+
+		.container
+			h3.title Summary
+			ul
+				li
+					p An app for hosting trivia games in realtime. Creators can make new
+					| trivia games comprised of rounds and questions, and users are able to
+					| join each game via a shared URL.
+				li
+					p No development outside of the Figma prototype has started for this
+					| project. It will likely be used as a testing ground for learning more
+					| C# or Java.

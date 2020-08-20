@@ -1,0 +1,41 @@
+doctype html
+html
+	head
+		include includes/meta
+		title folio -- adamtuechler
+	body
+		- var title = 'Folio Page'
+		include includes/navbar
+
+		.logo.circle
+			img(src="assets/img/logo.png")
+
+		.container.first
+			h3.title Projects I'm working on
+			ul
+				li
+					a(href="ttt.html") Nerf TTT
+				li
+					a(href="aura.html") Project Aura
+				li
+					a(href="trivia.html") Unnamed Trivia App
+
+		.container
+			h3.title Technology and Frameworks
+			ul
+				li
+					p
+						b UI/UX - 
+						| Angular and Figma
+				li
+					p
+						b Web APIs - 
+						| Java and NodeJS
+				li
+					p
+						b DB - 
+						| Dynamo, Mongo, Postgres
+				li
+					p
+						b OS - 
+						| Linux
